@@ -4,10 +4,10 @@
     ViewBag.Title = "Home";
 }
 @section Scripts{
-    <script src="~/Scripts/home.js"></script>
     <script src="~/Scripts/vue-the-mask.js"></script>
     <script src="~/Scripts/vee-validate.js"></script>
     <script src="~/Scripts/axios.js"></script>
+
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -71,7 +71,7 @@
 
         <div id="menu-items">
             <div id="login-paragrafo" class="menu-item">Login</div>
-            <div id="formulario-paragrafo" class="menu-item" >         
+            <div id="formulario-paragrafo" class="menu-item">
                 <a href="@Url.Action("Cadastrar", "Pessoa")" class="elements">Formulário </a>
             </div>
             <div id="cadastro-paragrafo" class="menu-item">Cadastros</div>
@@ -81,3 +81,4 @@
     </div>
 </body>
 </html>
+<script src="~/Scripts/home.js"></script>
