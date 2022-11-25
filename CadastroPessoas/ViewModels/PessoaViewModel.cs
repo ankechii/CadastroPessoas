@@ -6,9 +6,6 @@ using System.Text.RegularExpressions;
 using System.Web;
 
 
-/// <summary>
-/// adicionar verificador bruto do email
-/// </summary>
 namespace CadastroPessoas.ViewModels
 {
     public class PessoaViewModel
